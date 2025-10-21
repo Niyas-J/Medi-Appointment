@@ -1,5 +1,5 @@
 const config = {
-  API_BASE_URL: process.env.REACT_APP_API_URL || 'http://localhost:5000/api',
+  API_BASE_URL: process.env.REACT_APP_API_URL || '/api',
   SERVICE_TYPES: [
     'General Consultation',
     'Dental Checkup',
@@ -16,4 +16,3 @@ const config = {
 };
 
 export default config;
-
